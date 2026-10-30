@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CAVI · Sacs tricotés à la main</title>
+<meta name="description" content="CAVI : sacs tricotés à la main, pièces uniques à prix accessibles. Découvrez la collection et commandez sur WhatsApp.">
+<meta name="theme-color" content="#1b120c">
+<meta property="og:title" content="CAVI · Sacs tricotés à la main">
+<meta property="og:description" content="Pièces uniques, prix accessibles. Commandez sur WhatsApp.">
+<meta property="og:image" content="hero.jpg">
+<link rel="icon" href="logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500;1,600&family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="topbar" aria-label="Informations">
+  <div class="topbar__track">
+    <span>Nouvelle collection</span><span>Tricoté à la main</span><span>Prix accessibles</span><span>Commande sur WhatsApp</span>
+    <span>Nouvelle collection</span><span>Tricoté à la main</span><span>Prix accessibles</span><span>Commande sur WhatsApp</span>
+    <span>Nouvelle collection</span><span>Tricoté à la main</span><span>Prix accessibles</span><span>Commande sur WhatsApp</span>
+  </div>
+</div>
+
+<header class="header" id="header">
+  <div class="header__in">
+    <button class="burger" id="burger" aria-label="Ouvrir le menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    <a href="#top" class="brand" aria-label="CAVI, accueil">
+      <img src="logo.png" alt="" width="34" height="38">
+      <span>CAVI</span>
+    </a>
+    <nav class="nav" id="nav" aria-label="Navigation principale">
+      <a href="#collection">Collection</a>
+      <a href="#pourquoi">Pourquoi CAVI</a>
+      <a href="#commander">Commander</a>
+      <a href="#apropos">À propos</a>
+    </nav>
+    <a class="btn btn--wa btn--sm" href="https://wa.me/message/IMAPV7M3BM4NE1" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a9 9 0 0 0-7.7 13.6L3 21l4.5-1.2A9 9 0 1 0 12 3z"/><path d="M9 8.5c.5 3 2.5 5 5.5 5.7l1.5-1.5-2-1-1 .7c-1-.5-1.8-1.3-2.3-2.3l.7-1-1-2z"/></svg>
+      <span>WhatsApp</span>
+    </a>
+  </div>
+</header>
+
+<main id="top">
+
+<section class="hero">
+  <div class="hero__text">
+    <p class="eyebrow">Lancement officiel</p>
+    <h1>Nouvelle<br>collection</h1>
+    <p class="hero__slogan">Quand l’invisible sublime le visible</p>
+    <p class="hero__sub">Des sacs tricotés à la main, en pièces uniques. Des couleurs vives, des perles, des franges et des prix accessibles.</p>
+    <div class="hero__cta">
+      <a class="btn btn--gold" href="#collection">Voir la collection</a>
+      <a class="btn btn--line" href="https://wa.me/message/IMAPV7M3BM4NE1" target="_blank" rel="noopener">Commander</a>
+    </div>
+    <ul class="hero__facts">
+      <li><b>100 %</b> fait main</li>
+      <li><b>Pièces</b> uniques</li>
+      <li><b>Prix</b> accessibles</li>
+    </ul>
+  </div>
+  <div class="hero__img">
+    <img src="hero.jpg" alt="La collection CAVI : sacs tricotés de toutes les couleurs" fetchpriority="high">
+    <span class="hero__tag">Collection<br>2026</span>
+  </div>
+</section>
+
+<div class="ticker" aria-hidden="true">
+  <div class="ticker__track">
+    <span>Fait main</span><i>✦</i><span>Pièces uniques</span><i>✦</i><span>Prix accessibles</span><i>✦</i><span>Fait main</span><i>✦</i><span>Pièces uniques</span><i>✦</i><span>Prix accessibles</span><i>✦</i>
+    <span>Fait main</span><i>✦</i><span>Pièces uniques</span><i>✦</i><span>Prix accessibles</span><i>✦</i><span>Fait main</span><i>✦</i><span>Pièces uniques</span><i>✦</i><span>Prix accessibles</span><i>✦</i>
+  </div>
+</div>
+
+<section class="section" id="collection">
+  <div class="wrap">
+    <div class="section__head">
+      <h2>La collection</h2>
+      <p>Les articles disponibles en ce moment. Un modèle vous plaît ? Écrivez-nous sur WhatsApp.</p>
+    </div>
+    <div class="filters" id="filters" role="tablist" aria-label="Filtrer les articles">
+      <button class="chip is-active" data-filter="all" role="tab" aria-selected="true">Tous</button>
+      <button class="chip" data-filter="perles" role="tab" aria-selected="false">Perlés</button>
+      <button class="chip" data-filter="franges" role="tab" aria-selected="false">À franges</button>
+      <button class="chip" data-filter="colores" role="tab" aria-selected="false">Colorés</button>
+    </div>
+    <div class="grid" id="grid" aria-live="polite"></div>
+    <div class="more">
+      <p>Plus de modèles dans notre catalogue WhatsApp</p>
+      <a class="btn btn--dark" href="https://wa.me/c/22541425441" target="_blank" rel="noopener">Voir le catalogue</a>
+    </div>
+  </div>
+</section>
+
+<section class="section section--cream" id="pourquoi">
+  <div class="wrap">
+    <div class="section__head"><h2>Pourquoi CAVI</h2></div>
+    <div class="why">
+      <article class="why__item">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 20c-2-3-2-7 1-10l4-5 4 5c3 3 3 7 1 10"/><path d="M9 14c2 1 4 1 6 0M8 17c3 1.5 5 1.5 8 0"/></svg>
+        <h3>Tricoté main</h3>
+        <p>Chaque sac est tricoté maille par maille, avec soin et patience.</p>
+      </article>
+      <article class="why__item">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l2.5 5.5L20 9l-4 4 1 6-5-3-5 3 1-6-4-4 5.5-.5z"/></svg>
+        <h3>Pièces uniques</h3>
+        <p>Des modèles originaux, avec des couleurs et des détails qui se remarquent.</p>
+      </article>
+      <article class="why__item">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M9 9.5c.5-1.5 5.5-1.5 6 .5s-5 2-5 4.2c0 1.7 4.5 2 5.5.3M12 6.5v1.5M12 16v1.5"/></svg>
+        <h3>Prix accessibles</h3>
+        <p>De l’élégance fait main, sans le prix du luxe.</p>
+      </article>
+      <article class="why__item">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a9 9 0 0 0-7.7 13.6L3 21l4.5-1.2A9 9 0 1 0 12 3z"/><path d="M9 8.5c.5 3 2.5 5 5.5 5.7l1.5-1.5-2-1-1 .7c-1-.5-1.8-1.3-2.3-2.3l.7-1-1-2z"/></svg>
+        <h3>Commande facile</h3>
+        <p>Un message sur WhatsApp et on s’occupe du reste.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="split">
+  <div class="split__img"><img src="banniere.jpg" alt="Deux sacs CAVI à franges, bleu et caramel, tenus à la main" loading="lazy"></div>
+  <div class="split__text">
+    <p class="eyebrow">Les franges</p>
+    <h2>Le style qui bouge avec vous</h2>
+    <p>Pochettes à franges, anses tressées, perles nacrées. Chaque détail est cousu à la main pour que votre sac ne ressemble à aucun autre.</p>
+    <a class="btn btn--gold" href="#collection">Découvrir les modèles</a>
+  </div>
+</section>
+
+<section class="section" id="commander">
+  <div class="wrap">
+    <div class="section__head"><h2>Comment commander</h2><p>Trois étapes, tout se passe sur WhatsApp.</p></div>
+    <ol class="steps">
+      <li><span>1</span><h3>Choisissez</h3><p>Parcourez la collection et repérez le modèle et la couleur qui vous plaisent.</p></li>
+      <li><span>2</span><h3>Écrivez-nous</h3><p>Envoyez-nous le nom du modèle sur WhatsApp pour connaître le prix et la disponibilité.</p></li>
+      <li><span>3</span><h3>Recevez</h3><p>Nous confirmons votre commande et organisons la livraison avec vous.</p></li>
+    </ol>
+    <div class="center">
+      <a class="btn btn--wa" href="https://wa.me/message/IMAPV7M3BM4NE1" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a9 9 0 0 0-7.7 13.6L3 21l4.5-1.2A9 9 0 1 0 12 3z"/><path d="M9 8.5c.5 3 2.5 5 5.5 5.7l1.5-1.5-2-1-1 .7c-1-.5-1.8-1.3-2.3-2.3l.7-1-1-2z"/></svg>
+        Commander sur WhatsApp
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="about" id="apropos">
+  <div class="wrap about__in">
+    <img src="logo.png" alt="Monogramme CAVI" width="86" height="95" loading="lazy">
+    <p class="about__quote">Quand l’invisible sublime le visible</p>
+    <p class="about__text">CAVI crée des sacs tricotés à la main : des accessoires qui racontent votre style, avec des prix pensés pour que chacune puisse se faire plaisir.</p>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap footer__in">
+    <div class="footer__brand">
+      <img src="logo.png" alt="" width="46" height="51">
+      <span>CAVI</span>
+      <p>Sacs tricotés à la main.</p>
+    </div>
+    <nav class="footer__nav" aria-label="Pied de page">
+      <a href="#collection">Collection</a>
+      <a href="#commander">Commander</a>
+      <a href="#apropos">À propos</a>
+    </nav>
+    <div class="footer__wa">
+      <a href="https://wa.me/message/IMAPV7M3BM4NE1" target="_blank" rel="noopener">Nous écrire sur WhatsApp</a>
+      <a href="https://wa.me/c/22541425441" target="_blank" rel="noopener">Catalogue WhatsApp</a>
+    </div>
+  </div>
+  <p class="footer__copy">© <span id="year">2026</span> CAVI. Tous droits réservés.</p>
+</footer>
+
+<a class="fab" href="https://wa.me/message/IMAPV7M3BM4NE1" target="_blank" rel="noopener" aria-label="Commander sur WhatsApp">
+  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a9 9 0 0 0-7.7 13.6L3 21l4.5-1.2A9 9 0 1 0 12 3z"/><path d="M9 8.5c.5 3 2.5 5 5.5 5.7l1.5-1.5-2-1-1 .7c-1-.5-1.8-1.3-2.3-2.3l.7-1-1-2z"/></svg>
+</a>
+
+<div class="modal" id="modal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="m-name">
+  <div class="modal__bg" data-close></div>
+  <div class="modal__box">
+    <button class="modal__x" data-close aria-label="Fermer">×</button>
+    <div class="modal__img"><img id="m-img" src="" alt=""></div>
+    <div class="modal__body">
+      <span class="badge" id="m-badge"></span>
+      <h3 id="m-name"></h3>
+      <p class="modal__color" id="m-color"></p>
+      <p id="m-desc"></p>
+      <p class="modal__price" id="m-price"></p>
+      <a class="btn btn--wa" id="m-order" href="https://wa.me/message/IMAPV7M3BM4NE1" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a9 9 0 0 0-7.7 13.6L3 21l4.5-1.2A9 9 0 1 0 12 3z"/><path d="M9 8.5c.5 3 2.5 5 5.5 5.7l1.5-1.5-2-1-1 .7c-1-.5-1.8-1.3-2.3-2.3l.7-1-1-2z"/></svg>
+        Commander sur WhatsApp
+      </a>
+      <p class="modal__hint">Dites-nous le nom du modèle : <b id="m-hint"></b>
+        <button class="copy" id="m-copy" type="button">Copier</button></p>
+    </div>
+  </div>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>

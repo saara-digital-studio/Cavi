@@ -1,0 +1,3 @@
+CAVI - site vitrine (tous les fichiers sont dans le meme dossier)
+- Pour ajouter un article : ouvrir main.js et modifier la liste PRODUCTS.
+- Liens WhatsApp : dans index.html et dans main.js (WHATSAPP_MESSAGE).
